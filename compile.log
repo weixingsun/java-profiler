@@ -1,0 +1,18 @@
+  502  apt-get install subversion
+  503  svn checkout http://lightweight-java-profiler.googlecode.com/svn/trunk/ lightweight-java-profiler-read-only
+  506  mkdir tools
+  507  mv lightweight-java-profiler-read-only/ tools/
+  510  cd tools/lightweight-java-profiler-read-only/
+  511  make all
+  512  apt-get install make g++ linux-libc-dev libc6-dev-i386 
+  513  make all
+  522  ln -s /usr/include/asm-generic /usr/include/asm
+  523  make all
+  529  find /usr -name c++config.h
+  530  apt-get install gcc-5-multilib g++-5-multilib
+  532  make all
+  534  vi src/display.cc #"" PR ""
+  535  make all
+  538  make BITS=64 all
+  542  tar zcf lightweight-java-profiler-read-only.tgz lightweight-java-profiler-read-only/
+  545  history > compile.log
