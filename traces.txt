@@ -1,0 +1,18 @@
+1 
+Total trace count = 1, Total traces = 1
+
+
+Hot methods:
+Failures:
+Instances    Reason
+0            Non Java thread (GC/JIT/pure native)
+0            Stack walking disabled
+0            Java thread doing GC work
+1            In native code, unknown frame.
+0            In native code, non-walkable frame (you are likely to get this for native code).
+0            In Java code, unknown frame.
+0            In Java code, non-walkable frame (for example, if the frame is being constructed).
+0            Unknown thread state.
+0            Thread exiting.
+0            Thread in deoptimization (for dynamic recompilation).
+0            Thread in a safepoint (such as a stop-the-world GC).
